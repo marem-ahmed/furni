@@ -10,29 +10,43 @@
   </head>
   <body>
     <!-- start code of header -->
-    <header class="px-5">
+    <header class="px-md-5">
       <div class="container-fluid px-5">
-        <nav
-          class="row pt-4 pb-5 d-flex justify-content-between align-items-center"
-        >
-          <div class="left-nav col-6">
-            <h1 class="text-light">Furni</h1>
-          </div>
-          <div class="right-nav col-5">
-            <ul class="d-flex list-unstyled text-white">
-              <li><a href="">Home</a></li>
-              <li><a class="p-3" href="">Shop</a></li>
-              <li><a class="p-3" href="">About us</a></li>
-              <li><a class="p-3" href="">Services</a></li>
-              <li><a class="p-3" href="">Blog</a></li>
-              <li><a class="p-3" href="">Contact us</a></li>
-            </ul>
-          </div>
-          <div class="nav-icons col-1">
+      
+     
+        <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Furni</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-light display-5"><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+       
+      </ul>
+      <div class="nav-icons ">
             <span class="mx-2"><i class="fa-solid fa-cart-shopping"></i></span>
             <span> <i class="fa-regular fa-user"></i></span>
           </div>
-        </nav>
+     
+    </div>
+  </div>
+</nav>
         <div class="home mt-5">
           <div class="row">
             <div class="home-content col-md-5 text-light">
@@ -64,7 +78,7 @@
     <div class="products p-sections bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <h3>Crafted with excellent material</h3>
             <p>
               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
@@ -72,7 +86,7 @@
             </p>
             <button class="btn btn-dark">Explore</button>
           </div>
-          <div class="col-md-3 product text-center py-5">
+          <div class=" col-md-4 col-lg-3   product text-center py-5">
             <img class="w-100" src="img/product-1.png" alt="" />
             <h6>Nordic chair</h6>
             <span>$50.00</span>
@@ -80,7 +94,7 @@
               <span><i class="fa-solid fa-plus"></i></span>
             </div>
           </div>
-          <div class="col-md-3 product text-center py-5">
+          <div class="col-md-4 col-lg-3 product text-center py-5">
             <img class="w-100" src="img/product-2.png" alt="" />
             <h6>Kruzo Aero Chair</h6>
             <span>$78.00</span>
@@ -88,7 +102,7 @@
               <span><i class="fa-solid fa-plus"></i></span>
             </div>
           </div>
-          <div class="col-md-3 product text-center py-5">
+          <div class="col-md-4 col-lg-3 product text-center py-5">
             <img class="w-100" src="img/product-3.png" alt="" />
             <h6>ergonomic Chair</h6>
             <span>$43.00</span>
@@ -105,7 +119,7 @@
     <div class="why-choose-us p-sections bg-light">
       <div class="container-fluid p-5 mt-5">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6 mb-5 mb-lg-0">
             <h3>Why Choose Us</h3>
             <p class="text-muted">
               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
@@ -146,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 d-flex justify-content-center main-img">
+          <div class="col-lg-6 d-flex justify-content-center main-img mt-5 mt-lg-0">
             <img
               class="img-dots"
               src="https://themewagon.github.io/furni/images/dots-yellow.svg"
@@ -168,7 +182,7 @@
     <div class="we-help p-sections bg-light">
       <div class="container-fluid p-5">
         <div class="row p-4">
-          <div class="col-md-7">
+          <div class="col-lg-7">
             <div class="row">
               <div class="col-8 we-help-imgs">
                 <img
@@ -191,8 +205,8 @@
               </div>
             </div>
           </div>
-          <div class="offset-1"></div>
-          <div class="col-md-4">
+          <div class="offset-lg-1"></div>
+          <div class="col-lg-4 mt-5 mt-xl-0">
             <h3>We Help You Make Modern Interior Design</h3>
             <p class="text-muted">
               Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
@@ -224,12 +238,12 @@
     <div class="discription-products p-sections d-flex align-items-center bg-light">
       <div class="container-fluid p-5">
         <div class="row px-5">
-          <div class="col-md-4">
+          <div class=" col-12 col-md-6 col-lg-4">
             <div class="row">
-              <div class="col-4 img-min-product">
+              <div class="col-sm-5 col-lg-4 img-min-product">
                 <img class="w-100" src="img/product-1.png" alt="" />
               </div>
-              <div class="col-8 content-min-product">
+              <div class="col-sm-7 col-lg-8 content-min-product">
                 <h6>Nordic Chair</h6>
                 <p class="text-muted">
                   Donec facilisis quam ut purus rutrum lobortis. Donec vitae
@@ -239,12 +253,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class=" col-12 col-md-6 col-lg-4">
             <div class="row">
-              <div class="col-sm-4 img-min-product">
+              <div class="col-sm-5 col-lg-4 img-min-product">
                 <img class="w-100" src="img/product-2.png" alt="" />
               </div>
-              <div class="col-8 content-min-product">
+              <div class="col-sm-7 col-lg-8 content-min-product">
                 <h6>Kruzo Aero Chair</h6>
                 <p class="text-muted">
                   Donec facilisis quam ut purus rutrum lobortis. Donec vitae
@@ -254,12 +268,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class=" col-12 col-md-6 col-lg-4">
             <div class="row">
-              <div class="col-4 img-min-product">
+              <div class="col-sm-5 col-lg-4 img-min-product">
                 <img class="w-100" src="img/product-3.png" alt="" />
               </div>
-              <div class="col-8 content-min-product">
+              <div class="col-sm-7 col-lg-8 content-min-product">
                 <h6>Ergonomic Chair</h6>
                 <p class="text-muted">
                   Donec facilisis quam ut purus rutrum lobortis. Donec vitae
@@ -273,6 +287,7 @@
       </div>
     </div>
     <!-- end code of discription-products section -->
+    <!-- start code of Testimonials section -->
 
     <div class="Testimonials p-sections bg-light">
       <div class="p-5">
@@ -386,6 +401,9 @@
         </div>
       </div>
     </div>
+        <!-- end code of Testimonials section -->
+    <!-- start code of blogs section -->
+
     <div class="blogs p-5 p-sections bg-light">
       <div class="container-fluid p-5">
         <div class="d-flex justify-content-between">
@@ -454,10 +472,13 @@
         </div>
       </div>
     </div>
+        <!-- end code of blogs section -->
+    <!-- start code of footer section -->
+
     <footer class= " p-5">
       <div class="container-fluid p-5">
         <div class="row">
-          <div class="col-md-6">
+          <div class=" col-12 col-lg-6">
             <h5 class="main-color">
               <span><i class="fa-regular fa-envelope"></i></span>
               Subscribe to Newsletter
@@ -484,13 +505,13 @@
               </div>
             </form>
           </div>
-          <div class="col-md-6  d-flex img-footer">
-            <img class=" mx-auto " src="img/sofa.png" alt="">
+          <div class=" col-12 col-lg-6  d-flex img-footer">
+            <img src="img/sofa.png" alt="">
           </div>
         </div>
         <div class="row footer-menu py-5">
           <h2 class="main-color col-12">Furni.</h2>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <p>
               Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
               quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
@@ -504,7 +525,7 @@
               <span> <i class="fa-brands fa-linkedin"></i></span>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class=" col-6 col-lg-2 ">
             <ul>
               <li><a href="">About us</a></li>
               <li><a href="">Services</a></li>
@@ -512,14 +533,14 @@
               <li><a href=""> Contact us</a></li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class=" col-6 col-lg-2 ">
             <ul>
               <li><a href="">Support</a></li>
               <li><a href="">Knowledge base</a></li>
               <li><a href="">Live chat</a></li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-6 col-lg-2">
             <ul>
               <li><a href="">Jobs</a></li>
               <li><a href="">Our team</a></li>
@@ -527,7 +548,7 @@
               <li><a href=""> Privacy policy</a></li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-6 col-lg-2">
             <ul>
               <li><a href="">Nordic Chair</a></li>
               <li><a href="">Kruzo Aero</a></li>
@@ -548,6 +569,7 @@
         </div>
       </div>
     </footer>
+    <!-- end code of footer section -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p-sections{
+    padding-top: 15vh;
+}
+.main-color{
+    color: #3b5d50;
+}
+.main-bg{
+    background-color: #3b5d50;
+}
+header{
+    background-color: #3b5d50;
+    min-height: 75vh;
+   
+}
+.right-nav ul li a{
+color: white;
+font-weight: 500;
+text-decoration: none;
+}
+.nav-icons i{
+    font-size: 20px;
+    color: white;
+}
+.home-img{
+    position: relative;
+    z-index: 1;
+}
+.rounded-btn{
+    border-radius: 50px;
+}
+.btn-one{
+    background-color:#f9bf29 ;
+    cursor: pointer;
+}
+.btn-two{
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.home-img::after{
+    content: url(https://themewagon.github.io/furni/images/dots-light.svg);
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    z-index:-1;
+    
+}
+.home-content h2{
+    font-weight:700 ;
+}
+.products{
+    display: flex;
+    align-items: center;
+}
+.product{
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    background-color: #DCE5E4;
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.layer span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    transform: translateY(50%);
+
+}
+.product:hover .layer{
+    top: 25%;
+}
+.product img{
+    transition: transform 0.3s;
+}
+.product:hover img{
+    transform: translateY(-23%);
+}
+
+
+/* start code of why we choice section */
+
+.main-img{
+    position: relative;
+    z-index: 3;
+}
+.img-dots{
+    position: absolute;
+    left: -1%;
+    top:-15%;
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+}
+
+/* end code of why we choice section */
+
+
+.we-help-imgs{
+    position: relative;
+    z-index: 1;
+
+}
+.we-help-imgs::before{
+position: absolute;
+content: '';
+width: 200px;
+height: 200px;
+background-image: url(https://themewagon.github.io/furni/images/dots-green.svg);
+top: -10%;
+left: -10%;
+z-index: -1;
+
+}
+.layer-img{
+    position: absolute;
+    left: 70%;
+    top:40% ;
+    width: 422px;
+    height: 450px;
+    
+} 
+.rounded-img{
+    border-radius: 25px;
+}
+.img-min-product{
+    position: relative;
+}
+.img-min-product::before{
+    content: '';
+    position: absolute;
+    width: 75%;
+ 
+    height: 90%;
+    border-radius: 15px;
+    background-color: #dce5e4;
+    z-index: -1;
+}
+.content-min-product a{
+text-decoration: none;
+color: black;
+transition: all 0.2s;
+}
+.content-min-product:hover a{
+color: #dce5e4;
+}
+
+.Testimonials .img-slider img{
+    border-radius:50% ;
+    width: 70px;
+}
+.Testimonials  .carousel-control-prev,
+.Testimonials  .carousel-control-next{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    color: black;
+  
+    }
+    .Testimonials  .carousel-control-prev:hover,
+.Testimonials  .carousel-control-next:hover{
+background-color: #3b5d50;
+}
+.Testimonials .visually-hidden {
+    color: black;
+}
+.blogs a{
+    font-weight: 700;
+
+}
+footer ul{
+list-style: none;
+}
+footer  a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: #DCE5E4;
+    text-decoration: none;
+
+}
+.icons{
+    display: flex;
+    
+}
+footer .icons span{
+    margin-inline: 3px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 40px ;
+    height: 40px;
+    background-color: #a7bab3;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+footer .icons span:hover{
+    background-color: #3b5d50;
+    color: white;
+}
+.footer-menu {
+    border-bottom: 1px solid rgb(0,0,0,0.1);
+}
+footer{
+    position: relative;
+    background-color: white;
+}
+.img-footer{
+    position: absolute;
+  
+    width: 500px;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+.img-footer img{
+    width: 100%;
+}
